@@ -14,7 +14,18 @@ global.APIs = {
 
 //Api Key\\
 global.APIKeys = {
-	'https://zenzapis.xyz': 'your key',
+	'https://melcanz.com': 'irsantod',
+  'https://server-api-rey.herokuapp.com': 'apirey',
+  'https://api.xteam.xyz': 'd37372311698ed1d',
+  'https://zahirr-web.herokuapp.com': 'zahirgans',
+  'https://bsbt-api-rest.herokuapp.com': 'benniismael',
+  'https://api.zeks.xyz': 'apivinz',
+  'https://hardianto-chan.herokuapp.com': 'hardianto',
+  'https://pencarikode.xyz': 'pais', 
+  'https://leyscoders-api.herokuapp.com': 'dappakntlll',
+  'https://zekais-api.herokuapp.com': 'apikeymu',
+  'https://api.lolhuman.xyz': 'Deffbotz',
+  'https://zenzapis.xyz/' : 'e87e334de1ea',
 }
 
 
