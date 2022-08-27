@@ -278,7 +278,7 @@ autoreadsw = true
 	    if (setting) {
 		if (!isNumber(setting.status)) setting.status = 0
 		if (!('autobio' in setting)) setting.autobio = true
-if (!('templateImage' in setting)) setting.templateImage = false
+if (!('templateImage' in setting)) setting.templateImage = true
 if (!('templateVideo' in setting)) setting.templateVideo = false
 		if (!('templateGif' in setting)) setting.templateGif = false
 		if (!('templateMsg' in setting)) setting.templateMsg = false
@@ -286,11 +286,11 @@ if (!('templateVideo' in setting)) setting.templateVideo = false
 	    } else global.db.data.settings[botNumber] = {
 		status: 0,
 		autobio: true,
-		templateImage: false,
+		templateImage: true,
 		templateVideo: false,
 		templateGif: false,
 		templateMsg: false,
-		templateDocument: true,
+		templateDocument: false,
 	    }
 	    
         } catch (err) {
@@ -447,7 +447,7 @@ participant: `0@s.whatsapp.net`, ...(from ?
 message: { 
 "audioMessage": {
 "mimetype":"audio/ogg; codecs=opus",
-"seconds": "9999999999999999",
+"seconds": "1",
 "ptt": "true"
 }
 } 
@@ -605,7 +605,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Wa.me Link Detected 」\`\`\`\n\n@
   if (antiVirtex) {
   if (budy.length > 3500) {
   reply(`Seseorang mengirim spam virus!! tandai sebagai membaca⚠️\n`.repeat(300))
-  reply(`\`\`\`「 Virus Detected 」\`\`\`\n\nMaaf Anda Akan Ditendang !`)
+  reply(`\`\`\`「 Virus Detected 」\`\`\`\n\nMaaf Anda Akan Di keluarkan 😎👍🏻 !`)
   if (!isBotAdmins) return reply(mess.botAdmin)
   XeonBotInc.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
   }
@@ -613,7 +613,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Wa.me Link Detected 」\`\`\`\n\n@
 //anti bad words by xeon
 if (antiToxic)
 if (bad.includes(messagesD)) {
-tos = ['Hei, jaga mulutmu','Tidak pernah diajari cara berbicara?','Berhenti menjadi racun temanku🤢','Jangan beracun']
+tos = ['Hei, jaga mulutmu','Tidak pernah diajari cara berbicara?','Berhenti menjadi toxic temanku🤢','Jangan toxic']
 sin =  tos[Math.floor(Math.random() * (tos.length))]
 reply(sin)
 if (m.text) {
@@ -1079,7 +1079,7 @@ const latensie = speed() - timestampe
                 const menulist = `┌─❖
 │「 Hallo 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  Saya Bot
+┌┤✑  Saya ${global.botname}
 │└────────────┈ ⳹
 │
 └─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
@@ -1179,7 +1179,7 @@ orgnye = m.quoted.sender
 }
 const isBane = banUser.includes(orgnye)
 if (args[0] === "add") {
-if (isBane) return ads('Pengguna sudah dilarang')
+if (isBane) return ads('Pengguna sudah ban')
 banUser.push(orgnye)
 replay(`Berhasil memblokir pengguna`)
 } else if (args[0] === "del") {
@@ -3227,7 +3227,7 @@ id: 'menu'
 }  
 }, {
 quickReplyButton: {
-displayText: 'Owner 😈',
+displayText: 'Owner 😎',
 id: 'owner'
 }
 }]
@@ -3268,7 +3268,7 @@ id: 'menu'
 }  
 }, {
 quickReplyButton: {
-displayText: 'Owner 😈',
+displayText: 'Owner 😎',
 id: 'owner'
 }
 }]
@@ -3310,7 +3310,7 @@ id: 'menu'
 }  
 }, {
 quickReplyButton: {
-displayText: 'Owner 😈',
+displayText: 'Owner 😎',
 id: 'owner'
 }
 }]
