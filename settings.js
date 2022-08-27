@@ -1,5 +1,5 @@
 //════════════════════════════//
-//Recode By ArullOfc 
+//Recode By Aditya Refandi 
 //© 2022 Xeon Bot Inc. Cheems Bot MD
 //Thank you to Lord Buddha, Family and Myself
 //════════════════════════════//
@@ -32,7 +32,7 @@ global.APIKeys = {
 //aumto functioner
 global.autoTyping = false //autoketik otomatis di gc (true buat on, false buat off)
 global.autoreadpmngc = true //pembacaan otomatis di pc (true to buat on, false buat off)
-global.autoReadGc = true //pembacaan otomatis di gc (true to on, false to off)
+global.autoReadGc = false //pembacaan otomatis di gc (true to on, false to off)
 global.autoRecord = false //perekaman otomatis (true to on, false to off)
 global.available = true //tanda online (true to on, false to off)
 
@@ -49,7 +49,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.vcardowner = ['6282244877433'] //ur owner number
-global.ownername = "𝙰𝚍𝚒𝚝𝚢𝚊 𝚁𝚎𝚏𝚊𝚗𝚍𝚒☁︎" //ur owner name
+global.ownername = "𝙰𝚍𝚒𝚝𝚢𝚊 𝚁𝚎𝚏𝚊𝚗𝚍𝚒👑" //ur owner name
 global.ytname = "YT: Dit'z Chn Ofc" //ur yt chanel name
 global.socialm = "GitHub: Adityarefandi" //ur github or insta name
 global.location = "Boyolali, Jawa Tengah, Indonesia" //ur location
@@ -58,10 +58,10 @@ global.location = "Boyolali, Jawa Tengah, Indonesia" //ur location
 global.owner = ['6282244877433']
 global.ownertag = '6282244877433' //ur tag number
 global.botname = 'D͟i͟t͟´z͟_B͟o͟t☘︎' //ur bot name
-global.linkz = "https://youtube.com/channel/UC1ikkqsPvtWuE_QonsET1yg" //your theme url which will be displayed on whatsapp
-global.websitex = "https://chat.whatsapp.com/KosmbTPMlB2DvXh1R93ns0" //ur website to be displayed
+global.linkz = "https://chat.whatsapp.com/KosmbTPMlB2DvXh1R93ns0" //your theme url which will be displayed on whatsapp
+global.websitex = "https://youtube.com/channel/UC1ikkqsPvtWuE_QonsET1yg" //ur website to be displayed
 global.botscript = 'https://chat.whatsapp.com/KosmbTPMlB2DvXh1R93ns0' //script link
-global.reactmoji = "❓" //ur menu react emoji
+global.reactmoji = "😻" //ur menu react emoji
 global.themeemoji = "😩" //ur theme emoji
 global.packname = "Sticker by" //ur sticker watermark packname
 global.author = "Dit'z_Bot" //ur sticker watermark author
@@ -73,7 +73,7 @@ global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
 global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
 
 //damtabase
-global.premium = ['6282244877433'] //ur premium numbers
+global.premium = [] //ur premium numbers
 global.ntilinkytvid = []
 global.ntilinkytch = []
 global.ntilinkig = []
@@ -116,7 +116,7 @@ global.mess = {
 }
     global.limitawal = {
     premium: "Infinity",
-    free: 12,
+    free: 15,
     monayawal: 1000
 }
    global.rpg = {
