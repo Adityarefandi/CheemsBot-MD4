@@ -31,7 +31,7 @@ global.APIKeys = {
 
 //aumto functioner
 global.autoTyping = false //autoketik otomatis di gc (true buat on, false buat off)
-global.autoreadpmngc = true //pembacaan otomatis di pc (true to buat on, false buat off)
+global.autoreadpmngc = false //pembacaan otomatis di pc (true to buat on, false buat off)
 global.autoReadGc = false //pembacaan otomatis di gc (true to on, false to off)
 global.autoRecord = false //perekaman otomatis (true to on, false to off)
 global.available = true //tanda online (true to on, false to off)
